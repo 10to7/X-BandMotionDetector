@@ -1,0 +1,453 @@
+# EESchema Netlist Version 1.1 created  Sat 17 Aug 2013 12:59:43 BST
+(
+ ( /520F658A $noname  TP3 TESTPOINT {Lib=TESTPOINT}
+  (    1 /doppler )
+ )
+ ( /520F657A $noname  TP2 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000021 )
+ )
+ ( /520F6541 $noname  TP1 TESTPOINT {Lib=TESTPOINT}
+  (    1 /Pulse )
+ )
+ ( /520E9C79 $noname  P4 HB100_GND {Lib=CONN_2}
+  (    1 GND )
+  (    2 GND )
+ )
+ ( /520E9C75 $noname  P3 HB100_GND {Lib=CONN_2}
+  (    1 GND )
+  (    2 GND )
+ )
+ ( /520E9C70 $noname  P2 HB100_IF {Lib=CONN_2}
+  (    1 /IF )
+  (    2 /IF )
+ )
+ ( /520E9C69 $noname  P5 HB100_VCC {Lib=CONN_2}
+  (    1 /HBVCC )
+  (    2 /HBVCC )
+ )
+ ( /520D52E0 $noname  P1 CONN_3 {Lib=CONN_3}
+  (    1 +5V )
+  (    2 /Freq )
+  (    3 GND )
+ )
+ ( /520D4ECB $noname  C11 10uF {Lib=C}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /520D4D3A $noname  R15 10K {Lib=R}
+  (    1 /doppler )
+  (    2 N-000006 )
+ )
+ ( /520D4BE2 $noname  R13 10K {Lib=R}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /520D4BBA $noname  R16 8k2 {Lib=R}
+  (    1 +5V )
+  (    2 N-000008 )
+ )
+ ( /520D4B08 $noname  U6 339 {Lib=339}
+  (    1 /Freq )
+  (    3 +5V )
+  (    6 /doppler )
+  (    7 N-000008 )
+  (   12 GND )
+ )
+ ( /520D4296 $noname  C1 6.8nF {Lib=C}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /520D4272 $noname  R1 1k {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000002 )
+ )
+ ( /520D424E $noname  R2 100k {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000005 )
+ )
+ ( /520D3BB2 $noname  U2 555 {Lib=555}
+  (    1 GND )
+  (    2 N-000002 )
+  (    3 /Pulse )
+  (    4 N-000005 )
+  (    5 ? )
+  (    6 N-000002 )
+  (    7 N-000004 )
+  (    8 +5V )
+ )
+ ( /520D3510 $noname  U1 3906 {Lib=3906}
+  (    1 /HBVCC )
+  (    2 N-000015 )
+  (    3 +5V )
+ )
+ ( /520D31F9 $noname  U3 3904 {Lib=3904}
+  (    1 N-000011 )
+  (    2 N-000014 )
+  (    3 /IF )
+ )
+ ( /520BFE7C $noname  R3 5.1K {Lib=R}
+  (    1 N-000015 )
+  (    2 /Pulse )
+ )
+ ( /520BFE64 $noname  C2 0.1uF {Lib=C}
+  (    1 /HBVCC )
+  (    2 GND )
+ )
+ ( /520BFE45 $noname  R5 51K {Lib=R}
+  (    1 /HBVCC )
+  (    2 N-000014 )
+ )
+ ( /520BFE00 $noname  R4 12K {Lib=R}
+  (    1 /IF )
+  (    2 GND )
+ )
+ ( /520BF6C1 $noname  R6 100K {Lib=R}
+  (    1 +5V )
+  (    2 N-000017 )
+ )
+ ( /520BF6AC $noname  R7 100K {Lib=R}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /520BF697 $noname  C5 100uF {Lib=C}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /520BF407 $noname  R9 330K {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000021 )
+ )
+ ( /520BF3A7 $noname  C7 4.7uF {Lib=C}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /520BF3A3 $noname  R10 10K {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000016 )
+ )
+ ( /520BF397 $noname  C3 0.1uF {Lib=C}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /520BF33E $noname  C4 4.7uF {Lib=C}
+  (    1 N-000011 )
+  (    2 N-000010 )
+ )
+ ( /520BF2C2 $noname  R8 12K {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000021 )
+ )
+ ( /520BF25F $noname  R11 1m {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000022 )
+ )
+ ( /520BF1C6 $noname  R14 1M {Lib=R}
+  (    1 N-000009 )
+  (    2 /doppler )
+ )
+ ( /520BF18C $noname  R12 8.2K {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000009 )
+ )
+ ( /520BF182 $noname  C9 4.7uF {Lib=C}
+  (    1 N-000022 )
+  (    2 N-000013 )
+ )
+ ( /520BF176 $noname  C6 0.1uF {Lib=C}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /520BF16A $noname  C10 2.2nF {Lib=C}
+  (    1 N-000009 )
+  (    2 /doppler )
+ )
+ ( /520BF15C $noname  C8 2.2nF {Lib=C}
+  (    1 N-000012 )
+  (    2 N-000022 )
+ )
+ ( /520BF103 $noname  U5 LM358 {Lib=LM358}
+  (    1 N-000022 )
+  (    2 N-000012 )
+  (    3 N-000021 )
+  (    4 GND )
+  (    5 N-000017 )
+  (    6 N-000009 )
+  (    7 /doppler )
+  (    8 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ C1 1
+ R1 2
+ U2 6
+ U2 2
+Net 3 "+5V" "+5V"
+ R16 1
+ U6 3
+ P1 1
+ U5 8
+ R6 1
+ U1 3
+ U2 8
+Net 4 "" ""
+ R1 1
+ R2 1
+ U2 7
+Net 5 "" ""
+ U2 4
+ R2 2
+Net 6 "" ""
+ R15 2
+ C11 1
+Net 7 "/Freq" "Freq"
+ P1 2
+ U6 1
+Net 8 "" ""
+ U6 7
+ R16 2
+ R13 2
+Net 9 "" ""
+ C10 1
+ U5 6
+ R12 2
+ R14 1
+Net 10 "" ""
+ R8 1
+ C4 2
+Net 11 "" ""
+ U3 1
+ C3 1
+ C4 1
+Net 12 "" ""
+ C8 1
+ U5 2
+ R10 1
+ R11 1
+Net 13 "" ""
+ R12 1
+ C9 2
+Net 14 "" ""
+ R5 2
+ U3 2
+Net 15 "" ""
+ U1 2
+ R3 1
+Net 16 "" ""
+ C7 1
+ R10 2
+Net 17 "" ""
+ R6 2
+ R7 1
+ C5 1
+ R9 1
+ U5 5
+Net 18 "/IF" "IF"
+ U3 3
+ P2 1
+ R4 1
+ P2 2
+Net 19 "/Pulse" "Pulse"
+ TP1 1
+ U2 3
+ R3 2
+Net 20 "GND" "GND"
+ P4 1
+ P4 2
+ P3 1
+ P3 2
+ C7 2
+ C2 2
+ R4 2
+ U6 12
+ C6 2
+ R13 1
+ U5 4
+ C3 2
+ C1 2
+ U2 1
+ C11 2
+ P1 3
+ C5 2
+ R7 2
+Net 21 "" ""
+ R8 2
+ R9 2
+ U5 3
+ C6 1
+ TP2 1
+Net 22 "" ""
+ R11 2
+ U5 1
+ C8 2
+ C9 1
+Net 23 "/doppler" "doppler"
+ U6 6
+ R15 1
+ TP3 1
+ R14 2
+ U5 7
+ C10 2
+Net 24 "/HBVCC" "HBVCC"
+ U1 1
+ C2 1
+ R5 1
+ P5 2
+ P5 1
+}
+#End
