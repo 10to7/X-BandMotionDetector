@@ -1,11 +1,11 @@
-update=Fri 16 Aug 2013 21:18:11 BST
+update=Sun 18 May 2014 11:06:02 BST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../ComponentLibrary
+LibDir=../../ComponentLibrary
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -70,6 +70,11 @@ LibName32=opto
 LibName33=atmel
 LibName34=contrib
 LibName35=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -88,6 +93,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
+LibDir=../../ComponentLibrary
 LibName1=10to7_sm_standard
 LibName2=sockets
 LibName3=connect
@@ -98,9 +104,3 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibDir=../ComponentLibrary
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
